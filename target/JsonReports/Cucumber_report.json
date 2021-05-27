@@ -1,0 +1,812 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Add place requests validation",
+        "description": "",
+        "id": "place-api\u0027s-validations;add-place-requests-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2240208500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Requests payload are avaialble with \"Sanjay Choudhary1\" \"English1\" \"Garero ki dhani chomu1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary1",
+                  "offset": 39
+                },
+                {
+                  "val": "English1",
+                  "offset": 59
+                },
+                {
+                  "val": "Garero ki dhani chomu1",
+                  "offset": 70
+                }
+              ],
+              "location": "placeAPIValidationsstep._requests_payload_are_avaialble_with_something_something_something(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3347521500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": User calls \"AddPlaceAPI\" with \"Post\" http reuest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 14
+                },
+                {
+                  "val": "Post",
+                  "offset": 33
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_calls_with_http_reuest(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3457400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User see the statuscode is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_see_the_statuscode_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1022792000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": User see the \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "OK",
+                  "offset": 28
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19447000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": User see the \"scope\" is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 16
+                },
+                {
+                  "val": "APP",
+                  "offset": 27
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2124378800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": Verify place_id is created maps to \"Sanjay Choudhary1\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary1",
+                  "offset": 38
+                },
+                {
+                  "val": "GetPlaceAPI",
+                  "offset": 64
+                }
+              ],
+              "location": "placeAPIValidationsstep.verify_place_id_is_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Add place requests validation",
+        "description": "",
+        "id": "place-api\u0027s-validations;add-place-requests-validation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8293300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Requests payload are avaialble with \"Sanjay Choudhary2\" \"English2\" \"Garero ki dhani chomu2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary2",
+                  "offset": 39
+                },
+                {
+                  "val": "English2",
+                  "offset": 59
+                },
+                {
+                  "val": "Garero ki dhani chomu2",
+                  "offset": 70
+                }
+              ],
+              "location": "placeAPIValidationsstep._requests_payload_are_avaialble_with_something_something_something(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 611974400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": User calls \"AddPlaceAPI\" with \"Post\" http reuest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 14
+                },
+                {
+                  "val": "Post",
+                  "offset": 33
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_calls_with_http_reuest(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User see the statuscode is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_see_the_statuscode_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19398800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": User see the \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "OK",
+                  "offset": 28
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19823900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": User see the \"scope\" is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 16
+                },
+                {
+                  "val": "APP",
+                  "offset": 27
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2166067100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": Verify place_id is created maps to \"Sanjay Choudhary2\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary2",
+                  "offset": 38
+                },
+                {
+                  "val": "GetPlaceAPI",
+                  "offset": 64
+                }
+              ],
+              "location": "placeAPIValidationsstep.verify_place_id_is_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Add place requests validation",
+        "description": "",
+        "id": "place-api\u0027s-validations;add-place-requests-validation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12707000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Requests payload are avaialble with \"Sanjay Choudhary3\" \"English3\" \"Garero ki dhani chomu3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary3",
+                  "offset": 39
+                },
+                {
+                  "val": "English3",
+                  "offset": 59
+                },
+                {
+                  "val": "Garero ki dhani chomu3",
+                  "offset": 70
+                }
+              ],
+              "location": "placeAPIValidationsstep._requests_payload_are_avaialble_with_something_something_something(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 626101800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": User calls \"AddPlaceAPI\" with \"Post\" http reuest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 14
+                },
+                {
+                  "val": "Post",
+                  "offset": 33
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_calls_with_http_reuest(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User see the statuscode is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_see_the_statuscode_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19456600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": User see the \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "OK",
+                  "offset": 28
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22905400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": User see the \"scope\" is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 16
+                },
+                {
+                  "val": "APP",
+                  "offset": 27
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1963301200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": Verify place_id is created maps to \"Sanjay Choudhary3\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary3",
+                  "offset": 38
+                },
+                {
+                  "val": "GetPlaceAPI",
+                  "offset": 64
+                }
+              ],
+              "location": "placeAPIValidationsstep.verify_place_id_is_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Add place requests validation",
+        "description": "",
+        "id": "place-api\u0027s-validations;add-place-requests-validation;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6373000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Requests payload are avaialble with \"Sanjay Choudhary4\" \"English4\" \"Garero ki dhani chomu4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary4",
+                  "offset": 39
+                },
+                {
+                  "val": "English4",
+                  "offset": 59
+                },
+                {
+                  "val": "Garero ki dhani chomu4",
+                  "offset": 70
+                }
+              ],
+              "location": "placeAPIValidationsstep._requests_payload_are_avaialble_with_something_something_something(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 559421100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": User calls \"AddPlaceAPI\" with \"Post\" http reuest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 14
+                },
+                {
+                  "val": "Post",
+                  "offset": 33
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_calls_with_http_reuest(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User see the statuscode is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_see_the_statuscode_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15787900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": User see the \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "OK",
+                  "offset": 28
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14263800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": User see the \"scope\" is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 16
+                },
+                {
+                  "val": "APP",
+                  "offset": 27
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2105481400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": Verify place_id is created maps to \"Sanjay Choudhary4\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary4",
+                  "offset": 38
+                },
+                {
+                  "val": "GetPlaceAPI",
+                  "offset": 64
+                }
+              ],
+              "location": "placeAPIValidationsstep.verify_place_id_is_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Add place requests validation",
+        "description": "",
+        "id": "place-api\u0027s-validations;add-place-requests-validation;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4531000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": Requests payload are avaialble with \"Sanjay Choudhary5\" \"English5\" \"Garero ki dhani chomu5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary5",
+                  "offset": 39
+                },
+                {
+                  "val": "English5",
+                  "offset": 59
+                },
+                {
+                  "val": "Garero ki dhani chomu5",
+                  "offset": 70
+                }
+              ],
+              "location": "placeAPIValidationsstep._requests_payload_are_avaialble_with_something_something_something(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 474853500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": User calls \"AddPlaceAPI\" with \"Post\" http reuest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 14
+                },
+                {
+                  "val": "Post",
+                  "offset": 33
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_calls_with_http_reuest(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User see the statuscode is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "placeAPIValidationsstep.user_see_the_statuscode_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15335000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": User see the \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 16
+                },
+                {
+                  "val": "OK",
+                  "offset": 28
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14388300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ": User see the \"scope\" is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 16
+                },
+                {
+                  "val": "APP",
+                  "offset": 27
+                }
+              ],
+              "location": "placeAPIValidationsstep._user_see_the_something_is_something1(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1948871300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": ": Verify place_id is created maps to \"Sanjay Choudhary5\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanjay Choudhary5",
+                  "offset": 38
+                },
+                {
+                  "val": "GetPlaceAPI",
+                  "offset": 64
+                }
+              ],
+              "location": "placeAPIValidationsstep.verify_place_id_is_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Place API\u0027s Validations",
+    "description": "",
+    "id": "place-api\u0027s-validations",
+    "keyword": "Feature",
+    "uri": "placeAPIValidations.feature"
+  }
+]

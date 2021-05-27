@@ -1,0 +1,425 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sanjay Choudhary1",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu1",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English1",
+    "types": [
+        "Shoe Park",
+        "Shoe"
+    ],
+    "location": {
+        "lat": 23.4,
+        "lng": 23.08
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:12 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1f3230ae13a8c301e5349af698456381",
+    "scope": "APP",
+    "reference": "47250d3368d532d18aacea975779015847250d3368d532d18aacea9757790158",
+    "id": "47250d3368d532d18aacea9757790158"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1f3230ae13a8c301e5349af698456381&place_id=1f3230ae13a8c301e5349af698456381
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[1f3230ae13a8c301e5349af698456381, 1f3230ae13a8c301e5349af698456381]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 258
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "23.4",
+        "longitude": "23.08"
+    },
+    "accuracy": "50",
+    "name": "Sanjay Choudhary1",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu1",
+    "types": "Shoe Park,Shoe",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English1"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sanjay Choudhary2",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu2",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English2",
+    "types": [
+        "Shoe Park",
+        "Shoe"
+    ],
+    "location": {
+        "lat": 23.4,
+        "lng": 23.08
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:16 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c49de1829814e01672b1f0f86b1ca06d",
+    "scope": "APP",
+    "reference": "1e975fe60038d69941d99f7832c84a8b1e975fe60038d69941d99f7832c84a8b",
+    "id": "1e975fe60038d69941d99f7832c84a8b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c49de1829814e01672b1f0f86b1ca06d&place_id=c49de1829814e01672b1f0f86b1ca06d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[c49de1829814e01672b1f0f86b1ca06d, c49de1829814e01672b1f0f86b1ca06d]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:16 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 258
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "23.4",
+        "longitude": "23.08"
+    },
+    "accuracy": "50",
+    "name": "Sanjay Choudhary2",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu2",
+    "types": "Shoe Park,Shoe",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English2"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sanjay Choudhary3",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu3",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English3",
+    "types": [
+        "Shoe Park",
+        "Shoe"
+    ],
+    "location": {
+        "lat": 23.4,
+        "lng": 23.08
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:19 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "13265cfa07367366e489973088274f57",
+    "scope": "APP",
+    "reference": "4a46872ecf46d730e5bb8573fa77f2304a46872ecf46d730e5bb8573fa77f230",
+    "id": "4a46872ecf46d730e5bb8573fa77f230"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=13265cfa07367366e489973088274f57&place_id=13265cfa07367366e489973088274f57
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[13265cfa07367366e489973088274f57, 13265cfa07367366e489973088274f57]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:19 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 258
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "23.4",
+        "longitude": "23.08"
+    },
+    "accuracy": "50",
+    "name": "Sanjay Choudhary3",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu3",
+    "types": "Shoe Park,Shoe",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English3"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sanjay Choudhary4",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu4",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English4",
+    "types": [
+        "Shoe Park",
+        "Shoe"
+    ],
+    "location": {
+        "lat": 23.4,
+        "lng": 23.08
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:21 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "512a88e3e9b9b20f32d30cef1f39b039",
+    "scope": "APP",
+    "reference": "e168104453f8024d9a4e980d1f4ae9d9e168104453f8024d9a4e980d1f4ae9d9",
+    "id": "e168104453f8024d9a4e980d1f4ae9d9"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=512a88e3e9b9b20f32d30cef1f39b039&place_id=512a88e3e9b9b20f32d30cef1f39b039
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[512a88e3e9b9b20f32d30cef1f39b039, 512a88e3e9b9b20f32d30cef1f39b039]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:22 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 258
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "23.4",
+        "longitude": "23.08"
+    },
+    "accuracy": "50",
+    "name": "Sanjay Choudhary4",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu4",
+    "types": "Shoe Park,Shoe",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English4"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sanjay Choudhary5",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu5",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English5",
+    "types": [
+        "Shoe Park",
+        "Shoe"
+    ],
+    "location": {
+        "lat": 23.4,
+        "lng": 23.08
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:24 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "6f1ba41cef81f998b8b7f9df89669419",
+    "scope": "APP",
+    "reference": "d610b31b6ce144942e910876b702cb5fd610b31b6ce144942e910876b702cb5f",
+    "id": "d610b31b6ce144942e910876b702cb5f"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6f1ba41cef81f998b8b7f9df89669419&place_id=6f1ba41cef81f998b8b7f9df89669419
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[6f1ba41cef81f998b8b7f9df89669419, 6f1ba41cef81f998b8b7f9df89669419]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 27 May 2021 10:18:24 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 258
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "23.4",
+        "longitude": "23.08"
+    },
+    "accuracy": "50",
+    "name": "Sanjay Choudhary5",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Garero ki dhani chomu5",
+    "types": "Shoe Park,Shoe",
+    "website": "https://rahulshettyacedemy.com",
+    "language": "English5"
+}
