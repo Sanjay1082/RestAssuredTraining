@@ -4,20 +4,14 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
 import cucumber.api.junit.Cucumber;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import testDataAddAPI.AddAPIPayload;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
-
 import java.io.IOException;
-
 import org.junit.runner.RunWith;
-
-import POJO.RequestPayload;
-import POJO.ResponseAddReq;
 import Util.APIResources;
 import Util.Utils;
 
@@ -75,7 +69,7 @@ public class placeAPIValidationsstep {
     	user_calls_with_http_reuest(resources,"Get");
 		String actualName=Utils.getValueResponse(response,"name");
 		assertEquals(actualName,name);
-              System.out.println("My name is Sanjay Choudhary");
+        System.out.println("My name is Sanjay Choudhary");
     }
     
     @Given("^DeletePlace Payload$")
