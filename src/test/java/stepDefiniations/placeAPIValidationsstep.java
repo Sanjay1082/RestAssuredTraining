@@ -75,6 +75,7 @@ public class placeAPIValidationsstep {
     	user_calls_with_http_reuest(resources,"Get");
 		String actualName=Utils.getValueResponse(response,"name");
 		assertEquals(actualName,name);
+              System.out.println("My name is Sanjay Choudhary");
     }
     
     @Given("^DeletePlace Payload$")
