@@ -59,6 +59,7 @@ public class placeAPIValidationsstep {
     @Then("^: User see the statuscode is (\\d+)$")
     public void user_see_the_statuscode_is(int statuscode){
         assertEquals(response.getStatusCode(), statuscode);
+        System.out.println("My name is Sanjay Choudhary");
     }
     
     @Then("^: Verify place_id is created maps to \"([^\"]*)\" using \"([^\"]*)\"$")
