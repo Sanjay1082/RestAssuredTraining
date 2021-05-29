@@ -80,12 +80,7 @@ public class placeAPIValidationsstep {
     @Given("^DeletePlace Payload$")
     public void deleteplace_Payload() throws IOException{
     	ReqSpec = given().spec(Utils.requestSpec()).body(AddAPIPayload.DeletePlacePayLoad(place_id));
-    	System.out.println();
-    	System.out.println();
-    	System.out.println();
-    	System.out.println();
-    	System.out.println();
-    	System.out.println();
+    	
     }
     
   }
