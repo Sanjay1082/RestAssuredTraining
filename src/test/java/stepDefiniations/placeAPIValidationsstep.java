@@ -69,13 +69,13 @@ public class placeAPIValidationsstep {
     	user_calls_with_http_reuest(resources,"Get");
 		String actualName=Utils.getValueResponse(response,"name");
 		assertEquals(actualName,name);
-        System.out.println("My name is Sanjay Choudhary");
+        //System.out.println("My name is Sanjay Choudhary");
     }
     
     @Given("^DeletePlace Payload$")
     public void deleteplace_Payload() throws IOException{
     	ReqSpec = given().spec(Utils.requestSpec()).body(AddAPIPayload.DeletePlacePayLoad(place_id));
-    	
+    	System.out.println("My name is Sanjay Choudhary");
     }
     
   }
